@@ -1,0 +1,19 @@
+# Virtual environment (huge, and anyone can recreate it from requirements.txt)
+myenv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter and editor files
+.ipynb_checkpoints/
+.vscode/
+
+# Datasets (too large for GitHub, downloadable from Kaggle)
+data/*.csv
+
+# Secrets and OS files
+.streamlit/secrets.toml
+Thumbs.db
+.DS_Store
